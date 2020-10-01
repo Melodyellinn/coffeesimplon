@@ -39,7 +39,6 @@ span {
 .lime {
     height: 1000px;
     width: 1580px;
-    
 }
 
 .container {
@@ -89,11 +88,21 @@ a {
 }
 
 .bio {
-    display: flex;
+    display: block;
+    float: left;
     margin: 100px auto;
     height: 200px;
-    width: 50%;
-    position: relative;
+    width: 20%;
+    padding-left: 250px;
+}
+
+.biooo {
+    display: block;
+    float: right;
+    margin: 150px auto;
+    height: 200px;
+    width: 20%;
+    padding-right: 250px;
 }
 
 .cofa {
@@ -102,13 +111,12 @@ a {
 }
 
 h3 {
-    display: flex;
+    display: block;
     left: 0;
     right: 0;
     top: 30%;
     width: 100%;
     margin: 10px;
-    
 }
 
 .brooke {
