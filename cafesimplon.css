@@ -37,8 +37,7 @@ span {
 }
 
 .lime {
-    height: 1000px;
-    width: 1580px;
+    width: 100%
 }
 
 .container {
@@ -54,7 +53,7 @@ span {
     margin: 0 auto;
     left: 0;
     right: 0;
-    top: 40%;
+    top: 20%;
     color: white;
     width: 30%;
 }
@@ -88,21 +87,15 @@ a {
 }
 
 .bio {
-    display: block;
-    float: left;
-    margin: 100px auto;
-    height: 200px;
+    display: inline-block;
     width: 20%;
-    padding-left: 250px;
+    
 }
 
 .biooo {
-    display: block;
-    float: right;
-    margin: 150px auto;
-    height: 200px;
+    display: inline-block;
     width: 20%;
-    padding-right: 250px;
+    
 }
 
 .cofa {
@@ -120,6 +113,70 @@ h3 {
 }
 
 .brooke {
-    height: 500px;
-    width: 1600px;
+    width: 100%;
+}
+
+.container2 {
+    border: 4px solid black;
+    width: 80%;
+}
+
+@media screen and (max-width: 800px) {
+    .container {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .lime {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .container .text {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .bio .biooo {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .brooke {
+        width: 100%;
+    }
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 650px) {
+    .container {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .lime {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .container .text {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .bio .biooo {
+        width: 100%;
+    }
 }
